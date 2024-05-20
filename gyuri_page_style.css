@@ -1,0 +1,177 @@
+body{
+    background-image: url('spring_sky.jpg');
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    }
+
+.diary_cover{
+    background-color: #a1ceea;
+    border-radius: 9px;
+    border:1px solid #738186;
+    width: 920px;
+    height: 620px;
+    left:50%;
+    top:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    }
+
+.diary_paper{
+    background-color: #6b6b6b;
+    border-radius: 9px;
+    border:1px solid #738186;
+    width: 890px;
+    height: 590px;
+    left:50%;
+    top:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    }
+
+.title_area{
+    background-color: #ffc7cc;
+    border-radius: 9px;
+    border:1px solid #738186;
+    width: 860px;
+    height: 60px;
+    left:445px;
+    top: 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    }
+
+.titletext_area{
+    background-color: #ffc7cc;
+    border-radius: 9px;
+    width: 300px;
+    height: 60px;
+    left:20px;
+    position: absolute;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    align-items: center; /* 세로 중앙 정렬 */
+    }
+
+.music_area{
+    background-color: #ffc7cc;
+    border-radius: 9px;
+    width: 300px;
+    height: 60px;
+    left:330px;
+    position: absolute;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    align-items: center; /* 세로 중앙 정렬 */
+    }
+
+.date-time_area{
+    background-color: #ffc7cc;
+    border-radius: 9px;
+    width: 200px;
+    height: 60px;
+    left:650px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.date_area{
+    background-color: #ffc7cc;
+    border-radius: 9px;
+    width: 180px;
+    height: 28px;
+    left:600px;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    }
+
+.time_area{
+    background-color: #ffc7cc;
+    border-radius: 9px;
+    width: 180px;
+    height: 28px;
+    left:600px;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    }
+
+.sub_area{
+    background-image: url('spring_flower.jpg');
+    border-radius: 9px;
+    border:1px solid #738186;
+    width: 220px;
+    height: 500px;
+    left:125px;
+    top: 325px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    align-items: flex-end;
+    }
+
+.profile_area{
+    border-radius: 9px;
+    border:1px solid #738186;
+    width: 180px;
+    height: 180px;
+    left:20px;
+    top: 20px;
+    position: absolute;
+    }
+
+.name_area{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 9px;
+    border:1px solid #738186;
+    width: 180px;
+    height: 40px;
+    left:20px;
+    top: 210px;
+    position: absolute;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    }
+
+.profilecoment_area{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 9px;
+    border:1px solid #738186;
+    width: 180px;
+    height: 220px;
+    left:20px;
+    top: 260px;
+    position: absolute;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    font-size: 14px;
+    }
+
+
+
+
+.main_area{
+    background-color: #ffffff;
+    border-radius: 9px;
+    width: 560px;
+    height: 500px;
+    left:520px;
+    top:325px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    align-items: flex-end;
+    }
+
+.index_area{
+    background-color: #6b6b6b;
+    border-radius: 9px;
+    width: 80px;
+    height: 500px;
+    left:840px;
+    top:325px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    }
