@@ -1,5 +1,7 @@
+/* 어쩌다보니 스크랩, 시크릿용 css됨*/
+
 .scrap_use_area{
-    background-color: #ffc83d;
+    background-color: #ffffff;
     border-radius: 9px;
     width: 530px;
     height: 470px;
@@ -9,14 +11,47 @@
     align-items: flex-end;
     display: flex; /* flexbox 레이아웃 활성화 */
     justify-content: center; /* 가로 중앙 정렬 */
-    align-items: center; /* 세로 중앙 정렬 */
+    flex-direction: column; /*세로로*/
     
     overflow: auto;
     }
 
 
+.scrap_news_area{
+    background-color: #ffffff;
+    border:1px solid #ffbfbf;
+    border-radius: 9px;
+    width: 480px;
+    height: 350px;
+    left:15px;
+    top:15px;
+    position: absolute;
+    align-items: flex-end;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    flex-direction: column; /*세로로*/
+    overflow: auto;
+    }
+
+.scrap_my_area{
+    background-color: #fff;
+    border:1px solid #ffbfbf;
+    border-radius: 9px;
+    width: 480px;
+    height: 300px;
+    left:15px;
+    top:380px;
+    position: absolute;
+    align-items: flex-end;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    flex-direction: column; /*세로로*/
+    overflow: auto;
+    
+    }
+    
+
+
 .secret_use_area{
-    background-color: #ffc83d;
+    background-color: #808080;
     border-radius: 9px;
     width: 530px;
     height: 470px;
@@ -28,7 +63,6 @@
     justify-content: center; /* 가로 중앙 정렬 */
     align-items: center; /* 세로 중앙 정렬 */
     
-    overflow: auto;
     }
 
 
@@ -52,13 +86,13 @@
     align-items: center; /* 세로 중앙 정렬 */
 }
 
-.secret-content{
+.secret-content-container{
     background-color: #ffc83d;
     border-radius: 9px;
-    width: 530px;
-    height: 470px;
-    left:15px;
-    top:15px;
+    width: 520px;
+    height: 460px;
+    left:5px;
+    top:5px;
     position: absolute;
     align-items: flex-end;
     justify-content: center; /* 가로 중앙 정렬 */

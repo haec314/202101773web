@@ -1,0 +1,35 @@
+/*
+    일단 성장용 css
+*/
+
+.growth_use_area{
+    background-color: #808080;
+    border-radius: 9px;
+    width: 530px;
+    height: 470px;
+    left:15px;
+    top:15px;
+    position: absolute;
+    align-items: flex-end;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    }
+
+.book_use_area{
+    background-color: #648bff;
+    border-radius: 9px;
+    width: 500px;
+    height: 400px;
+    left:15px;
+    top:15px;
+    position: absolute;
+    align-items: flex-end;
+    display: flex; /* flexbox 레이아웃 활성화 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    }
+
+.pre_btn{
+    
+}
