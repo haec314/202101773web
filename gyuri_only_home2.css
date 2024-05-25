@@ -30,6 +30,27 @@
     align-items: center; /* 세로 중앙 정렬 */
     }
 
-.pre_btn{
-    
+#move_page_btn{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#pre_btn{
+
+}
+
+#next_btn{
+
+}
+
+#page1 {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

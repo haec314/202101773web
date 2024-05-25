@@ -66,9 +66,16 @@
 
                 <div class="growth_use_area">
 
-                    <div class="book_use_area"></div>
-                    <button>이전 장</button>
-                    <button>다음 장</button>
+                    <div id="page1" class="book_use_area">페이지1</div>
+                    <div id="page2" class="book_use_area" style="display:none">페이지2</div>
+                    <div id="page3" class="book_use_area" style="display:none">페이지3</div>
+
+                    <div id="move_page_btn">
+
+                        <button id="pre_btn" onclick="show_prepage()">이전페이지</button>
+                        <button id="next_btn" onclick="show_nextpage()">다음페이지</button>
+
+                    </div>
 
                 </div>
 
@@ -103,6 +110,27 @@
 
         const homeBtn = document.querySelector('.growth-btn');
         homeBtn.classList.add('clicked');
+
+
+        let current_page = 1;
+        const pages = document.getElementsByClassName("book_use_area");
+        const totalPages = pages.length;
+
+        function show_prepage() {
+            if (current_page > 1) {
+                pages[current_page - 1].style.display = "none";
+                current_page--;
+                pages[current_page - 1].style.display = "block";
+            }
+        }
+
+        function show_nextpage() {
+            if (current_page < totalPages) {
+                pages[current_page - 1].style.display = "none";
+                current_page++;
+                pages[current_page - 1].style.display = "block";
+            }
+        }
     </script>
     
 </body>
