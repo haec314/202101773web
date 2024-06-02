@@ -51,20 +51,18 @@
 
 
 .secret_use_area{
-    background-color: #808080;
+    background-color: #ffffff;
     border-radius: 9px;
     width: 530px;
     height: 470px;
     left:15px;
     top:15px;
-    position: absolute;
-    align-items: flex-end;
-    display: flex; /* flexbox 레이아웃 활성화 */
-    justify-content: center; /* 가로 중앙 정렬 */
-    align-items: center; /* 세로 중앙 정렬 */
-    
-    }
-
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
 
 .password-form-container{
     border-radius: 9px;
@@ -86,18 +84,14 @@
     align-items: center; /* 세로 중앙 정렬 */
 }
 
-.secret-content-container{
-    background-color: #ffc83d;
+.secret-content-container {
+    background-color: #ffffff;
     border-radius: 9px;
     width: 520px;
     height: 460px;
-    left:5px;
-    top:5px;
-    position: absolute;
-    align-items: flex-end;
-    justify-content: center; /* 가로 중앙 정렬 */
-    align-items: center; /* 세로 중앙 정렬 */
-    
     overflow: auto;
+}
 
+.secret-content {
+    padding: 20px; /* 내부 여백 추가 */
 }

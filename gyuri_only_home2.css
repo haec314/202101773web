@@ -1,5 +1,5 @@
 /*
-    일단 성장용 css
+    일단 성장용 css +비밀탭?
 */
 
 .growth_use_area{
@@ -53,4 +53,37 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 10px;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 500px; /* 최대 높이 조정 가능 */
+}
+
+.accordion-container {
+    flex-grow: 1;
+    overflow: auto;
 }
