@@ -1,4 +1,10 @@
-/* 어쩌다보니 스크랩, 시크릿용 css됨*/
+/* 어쩌다보니 스크랩, 시크릿, 홈용 css됨*/
+
+.paper{
+    background-color: #fff;
+    border: 2px solid black;
+}
+
 
 .scrap_use_area{
     background-color: #ffffff;
