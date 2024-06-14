@@ -1,6 +1,111 @@
 /*
-    일단 성장용 css +비밀탭?
+    일단 성장용 css +비밀탭? +미래
 */
+
+
+.jb-text {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+    position: absolute;
+}
+
+.jb-title:hover + .jb-text {
+    display: block;
+}
+
+.jb-text2 {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+    position: absolute;
+}
+
+.jb-title2:hover + .jb-text2 {
+    display: block;
+}
+
+.jb-text3 {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+    position: absolute;
+}
+
+.jb-title3:hover + .jb-text3 {
+    display: block;
+}
+
+.jb-text4 {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+    position: absolute;
+}
+
+.jb-title4:hover + .jb-text4 {
+    display: block;
+}
+
+.jb-text5 {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+    position: absolute;
+}
+
+.jb-title5:hover + .jb-text5 {
+    display: block;
+}
+
+.jb-text6 {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+    position: absolute;
+}
+
+.jb-title6:hover + .jb-text6 {
+    display: block;
+}
+
+.jb-text7 {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+    position: absolute;
+}
+
+.jb-title7:hover + .jb-text7 {
+    display: block;
+}
+
+.jb-text8 {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+    position: absolute;
+}
+
+.jb-title8:hover + .jb-text8 {
+    display: block;
+}
 
 .growth_use_area{
     background-color: #808080;
